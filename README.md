@@ -40,7 +40,7 @@ Alternatively, you can use the CLI to set up the variables using the following c
 `aws configure set <variable> "<value>"`.
 This will need to be run three times to ensure that the aws_access_key_id, aws_secret_access_key, and aws_session_token are all set.
 Below is an example of what one of these commands might look like:
-`aws configure set aws_access_key_id "ASIAQ3SUJJBSZSG4BANA"`.
+`aws configure set aws_access_key_id "000000000000"`.
 5. Now that your credentials are set, we can deploy the Terraform configuration. Initialize the directory of the new configuration using the following command:
 `terraform init`.
 6. Then you can apply and approve the Terraform configuration using the following command:
